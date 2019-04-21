@@ -1,0 +1,29 @@
+{
+  "name": "wdio-appium-native",
+  "version": "1.0.0",
+  "description": "WDIO Appium for testing native mobile application",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "@babel/traverse": "^7.4.3",
+    "@babel/types": "^7.4.0",
+    "@wdio/cli": "^5.7.15",
+    "@wdio/jasmine-framework": "^5.7.13",
+    "@wdio/local-runner": "^5.7.15",
+    "@wdio/spec-reporter": "^5.7.13",
+    "@wdio/sync": "^5.7.13",
+    "webdriverio": "^5.7.15"
+  },
+  "scripts": {
+    "android": "wdio ./config/wdio.android.conf.js"
+  },
+  "author": "Zilu Rane",
+  "license": "MIT"
+}
