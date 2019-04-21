@@ -15,7 +15,9 @@
         npm install
     ```
 
-4. Run Tests (Android)
+4. Make sure you have ADB installed on your computer, appium uses ADB to communicate with your android device. Else you can install SDK from  https://developer.android.com/studio which will help you to run ADB on your computer.
+
+5. Run Tests (Android)
     Update your Android device details in capabilities section of ```config/wdio.android.conf.js``` file.
     And then run following command
     ```
@@ -27,4 +29,5 @@
 
 
 ## Thanks
+
     https://github.com/webdriverio/appium-boilerplate
